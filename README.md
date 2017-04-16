@@ -1,6 +1,7 @@
 #**Behavioral Cloning Project** 
 ---
-This project was done as part of Udacity's Self-Driving Car Nanodegree Program.
+This project was done as part of Udacity's Self-Driving Car Nanodegree Program. The performance of the model with the simulator on track 1 can be viewed by clicking [here](https://youtu.be/TPQnPLXNaVM).
+
 
 [//]: # (Image References)
 
@@ -101,11 +102,8 @@ I finally randomly shuffled the data set and put 20% of the data into a validati
 ##Final Results
 After training for 15 epochs, my training accuracy was recorded to be 0.0138 and test accuracy 0.0134. Here is a graph showing the training and validation loss vs epochs.
 ![alt text][image4]
+The performance of the model with the simulator on track 1 can be viewed here:
+*[Youtube Link](https://youtu.be/TPQnPLXNaVM)
 
 ##Further thoughts
-First of the all trained model doesn't seem to work well on track 2 so there is still room to improve the model. Secondly, there are one or two trouble spots. Althought I tried to collect additional data, it doesn't seeem to help. So I need to investigate that. 
-
-To augment the data sat, I also flipped images and angles thinking that this would ... For example, here is an image that has then been flipped:
-
-![alt text][image6]
-![alt text][image7]
+First of the all trained model doesn't seem to work well on track 2 so there is still room to improve the model. Secondly, there are one or two trouble spots. Althought I tried to collect additional data, it doesn't seeem to help. So I need to investigate that further
