@@ -37,7 +37,7 @@ http://images.nvidia.com/content/tegra/automotive/images/2016/solutions/pdf/end-
 
 In order to gauge how well the model was working, I split my image and steering angle data into a training and validation set. I found that my first model had a low mean squared error on the training set but a high mean squared error on the validation set. This implied that the model was overfitting. 
 
-To combat the overfitting, I modified the model with dropout layers (model.py lines 21). The model was trained and validated on different data sets to ensure that the model was not overfitting (code line 116-135). The model was tested by running it through the simulator and ensuring that the vehicle could stay on the track.
+To combat the overfitting, I modified the model with dropout layers (model.py code lines 116-135). The model was tested by running it through the simulator and ensuring that the vehicle could stay on the track.
 
 The final step was to run the simulator to see how well the car was driving around track one. At the end of the process, the vehicle was able to drive autonomously around the track without leaving the road. There were still minor corrections needed for trouble spots after the bridge. I tried to collect additional data but since I had bad keyboard control, it made matters worse.
 
